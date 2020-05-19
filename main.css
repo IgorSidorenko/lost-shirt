@@ -561,17 +561,20 @@ ul > li {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    transition: width .3s;
 }
 
 .sidebar__menu {
     position: absolute;
     left: -400px;
+    transition: left .4s;
 }
 
 .sidebar--opened .sidebar__menu {
     left: 0px;
     width: 100%;
     text-align: center;
+    transition-delay: .1s;
 }
 
 .sidebar__hamburger-icon {
